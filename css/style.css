@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.topo1 {
+    height: 95px;
+    color: #000;
+    background-color: #000080;
+}
+
+.topo2int {
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+    background-color: blue;
+}
+
+.logo {
+    width: 230px;
+    height: 95px;
+    float: left;
+}
+
+.titulo {
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 10px;
+    font-family: 'VT323', monospace;
+    font-size: 70px;
+    color: #f5fffa;
+
+}
+
+.menu {
+    height: 1400px;
+    background-image: url('/blog/imagens/raios.jpg');
+    background-size: 1900px;
+}
+
+.menuint {
+    width: 100%;
+    max-width: 1040px;
+    height: 50px;
+    margin: auto;
+    background-color: #f5fffa;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+
+}
+
+.menu a {
+    font-style: italic;
+    font-size: 26px;
+    color: #00008b;
+    text-decoration: none;
+}
+
+.submenu {
+    width: 160px;
+    background-color: #f5fffa;
+    position: absolute;
+    display: none;
+}
+
+.subItem {
+    width: 150px;
+    height: 35px;
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+.subItem:hover {
+    background-color: powderblue;
+}
+
+.menu a:hover {
+    background-color: powderblue;
+}
