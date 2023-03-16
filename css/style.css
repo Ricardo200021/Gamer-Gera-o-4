@@ -94,11 +94,11 @@
 }
 
 .subItem:hover {
-    background-color: rgb(59, 119, 79);
+    background-color: rgb(205, 211, 207);
 }
 
 .menu a:hover {
-    background-color: rgb(59, 119, 79);
+    background-color: rgb(250, 211, 207);
 }
 
 .carrossel {
